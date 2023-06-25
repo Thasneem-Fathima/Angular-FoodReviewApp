@@ -1,0 +1,583 @@
+<div *ngIf="today==1">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Breakfast</h2>
+        <ul class="list-unstyled">
+          <li>Idli</li>
+          <li>Sambar</li>
+          <li>Tomato Chatni</li>
+          <li>Vadai</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h2>Lunch</h2>
+        <ul class="list-unstyled">
+          <li>Rice</li>
+          <li>Sambar</li>
+          <li>Spinach</li>
+          <li>Lady's Finger</li>
+          <li>Egg</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h2>Dinner</h2>
+        <ul class="list-unstyled">
+          <li>Chappati</li>
+          <li>Chicken Curry</li>
+          <li>Channa</li>
+          <li>Coconut Chatni</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+      <form [formGroup]="reviewForm" (ngSubmit)="onSubmit()">
+        <h4><b><i>Student Details</i></b></h4><br>
+        <div class="form-group">
+          <label for="Email">Email ID</label>
+          <input
+            type="email"
+            id="email"
+            formControlName="email"
+            class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="regno">Reg No</label>
+          <input
+            type="number"
+            id="regno"
+            formControlName="regno"
+            class="form-control">
+        </div>
+        <br><hr>
+        <h4><b><i>Reviews</i></b></h4><br>
+        <div class="form-group">
+          <label for="breakfast">Breakfast</label>
+          <input
+            type="text"
+            id="breakfast"
+            formControlName="breakfast"
+            class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="lunch">Lunch</label>
+          <input
+            type="text"
+            id="lunch"
+            formControlName="lunch"
+            class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="dinner">Dinner</label>
+          <input
+            type="text"
+            id="dinner"
+            formControlName="dinner"
+            class="form-control">
+        </div>
+  <button type="submit"
+  class="btn btn-success"
+  [disabled]="!reviewForm.valid">Save Reviews</button>
+  <br><br>
+      </form>
+
+  </div>
+  <div *ngIf="today==2">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Breakfast</h2>
+        <ul class="list-unstyled">
+          <li>Dosa</li>
+          <li>Idli powder</li>
+          <li>Sambar</li>
+          <li>Tomato Chatni</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h2>Lunch</h2>
+        <ul class="list-unstyled">
+          <li>Rice</li>
+          <li>Sambar</li>
+          <li>Peas</li>
+          <li>Egg</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h2>Dinner</h2>
+        <ul class="list-unstyled">
+          <li>Idli</li>
+          <li>Sambar</li>
+          <li>Tomato Chatni</li>
+          <li>Cauliflower</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+      <form [formGroup]="reviewForm" (ngSubmit)="onSubmit()">
+        <h4><b><i>Student Details</i></b></h4><br>
+        <div class="form-group">
+          <label for="Email">Email ID</label>
+          <input
+            type="email"
+            id="email"
+            formControlName="email"
+            class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="regno">Reg No</label>
+          <input
+            type="number"
+            id="regno"
+            formControlName="regno"
+            class="form-control">
+        </div>
+        <br><hr>
+        <h4><b><i>Reviews</i></b></h4><br>
+        <div class="form-group">
+          <label for="breakfast">Breakfast</label>
+          <input
+            type="text"
+            id="breakfast"
+            formControlName="breakfast"
+            class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="lunch">Lunch</label>
+          <input
+            type="text"
+            id="lunch"
+            formControlName="lunch"
+            class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="dinner">Dinner</label>
+          <input
+            type="text"
+            id="dinner"
+            formControlName="dinner"
+            class="form-control">
+        </div>
+  <button type="submit"
+  class="btn btn-success"
+  [disabled]="!reviewForm.valid">Save Reviews</button>
+  <br><br>
+      </form>
+
+  </div>
+  <div *ngIf="today==3">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Breakfast</h2>
+        <ul class="list-unstyled">
+          <li>Bread</li>
+          <li>Jam</li>
+          <li>Rava Upma</li>
+          <li>Channa</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h2>Lunch</h2>
+        <ul class="list-unstyled">
+          <li>Rice</li>
+          <li>Sambar</li>
+          <li>Peas</li>
+          <li>Egg</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h2>Dinner</h2>
+        <ul class="list-unstyled">
+          <li>Biriyani</li>
+          <li>Chicken Fry</li>
+          <li>Bread Halwa</li>
+          <li>Lemon Juice</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+      <form [formGroup]="reviewForm" (ngSubmit)="onSubmit()">
+        <h4><b><i>Student Details</i></b></h4><br>
+        <div class="form-group">
+          <label for="Email">Email ID</label>
+          <input
+            type="email"
+            id="email"
+            formControlName="email"
+            class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="regno">Reg No</label>
+          <input
+            type="number"
+            id="regno"
+            formControlName="regno"
+            class="form-control">
+        </div>
+        <br><hr>
+        <h4><b><i>Reviews</i></b></h4><br>
+        <div class="form-group">
+          <label for="breakfast">Breakfast</label>
+          <input
+            type="text"
+            id="breakfast"
+            formControlName="breakfast"
+            class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="lunch">Lunch</label>
+          <input
+            type="text"
+            id="lunch"
+            formControlName="lunch"
+            class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="dinner">Dinner</label>
+          <input
+            type="text"
+            id="dinner"
+            formControlName="dinner"
+            class="form-control">
+        </div>
+  <button type="submit"
+  class="btn btn-success"
+  [disabled]="!reviewForm.valid">Save Reviews</button>
+<br><br>
+      </form>
+
+  </div>
+  <div *ngIf="today==4">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Breakfast</h2>
+        <ul class="list-unstyled">
+          <li>Sweet Pongal</li>
+          <li>Sambar</li>
+          <li>Tomato Chatni</li>
+          <li>Vadai</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h2>Lunch</h2>
+        <ul class="list-unstyled">
+          <li>Rice</li>
+          <li>Sambar</li>
+          <li>Potato</li>
+          <li>Egg</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h2>Dinner</h2>
+        <ul class="list-unstyled">
+          <li>Dosa</li>
+          <li>Idli powder</li>
+          <li>Sambar</li>
+          <li>Tomato Chatni</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+      <form [formGroup]="reviewForm" (ngSubmit)="onSubmit()">
+        <h4><b><i>Student Details</i></b></h4><br>
+        <div class="form-group">
+          <label for="Email">Email ID</label>
+          <input
+            type="email"
+            id="email"
+            formControlName="email"
+            class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="regno">Reg No</label>
+          <input
+            type="number"
+            id="regno"
+            formControlName="regno"
+            class="form-control">
+        </div>
+        <br><hr>
+        <h4><b><i>Reviews</i></b></h4><br>
+        <div class="form-group">
+          <label for="breakfast">Breakfast</label>
+          <input
+            type="text"
+            id="breakfast"
+            formControlName="breakfast"
+            class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="lunch">Lunch</label>
+          <input
+            type="text"
+            id="lunch"
+            formControlName="lunch"
+            class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="dinner">Dinner</label>
+          <input
+            type="text"
+            id="dinner"
+            formControlName="dinner"
+            class="form-control">
+        </div>
+  <button type="submit"
+  class="btn btn-success"
+  [disabled]="!reviewForm.valid">Save Reviews</button>
+  <br><br>
+      </form>
+
+  </div>
+  <div *ngIf="today==5">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Breakfast</h2>
+          <ul class="list-unstyled">
+            <li>Vermicelli</li>
+            <li>Ragi</li>
+            <li>Sambar</li>
+            <li>Vada</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2>Lunch</h2>
+          <ul class="list-unstyled">
+            <li>Rice</li>
+            <li>Sambar</li>
+            <li>Carrot</li>
+            <li>Egg</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2>Dinner</h2>
+          <ul class="list-unstyled">
+            <li>Parota</li>
+            <li>Panneer Gravy</li>
+            <li>Chicken curry</li>
+            <li>Tea</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr>
+        <form [formGroup]="reviewForm" (ngSubmit)="onSubmit()">
+          <h4><b><i>Student Details</i></b></h4><br>
+          <div class="form-group">
+            <label for="Email">Email ID</label>
+            <input
+              type="email"
+              id="email"
+              formControlName="email"
+              class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="regno">Reg No</label>
+            <input
+              type="number"
+              id="regno"
+              formControlName="regno"
+              class="form-control">
+          </div>
+          <br><hr>
+          <h4><b><i>Reviews</i></b></h4><br>
+          <div class="form-group">
+            <label for="breakfast">Breakfast</label>
+            <input
+              type="text"
+              id="breakfast"
+              formControlName="breakfast"
+              class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="lunch">Lunch</label>
+            <input
+              type="text"
+              id="lunch"
+              formControlName="lunch"
+              class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="dinner">Dinner</label>
+            <input
+              type="text"
+              id="dinner"
+              formControlName="dinner"
+              class="form-control">
+          </div>
+    <button type="submit"
+    class="btn btn-success"
+    [disabled]="!reviewForm.valid">Save Reviews</button>
+    <br><br>
+        </form>
+
+    </div>
+  <div *ngIf="today==6">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Breakfast</h2>
+          <ul class="list-unstyled">
+          <li>Pongal</li>
+          <li>Sambar</li>
+          <li>Tomato Chatni</li>
+          <li>Vadai</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2>Lunch</h2>
+          <ul class="list-unstyled">
+            <li>Rice</li>
+            <li>Sambar</li>
+            <li>BeetRoot</li>
+            <li>Payasam</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2>Dinner</h2>
+          <ul class="list-unstyled">
+            <li>Chappati</li>
+            <li>Panneer</li>
+            <li>Tomato Rice</li>
+            <li>Tea</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr>
+        <form [formGroup]="reviewForm" (ngSubmit)="onSubmit()">
+          <h4><b><i>Student Details</i></b></h4><br>
+          <div class="form-group">
+            <label for="Email">Email ID</label>
+            <input
+              type="email"
+              id="email"
+              formControlName="email"
+              class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="regno">Reg No</label>
+            <input
+              type="number"
+              id="regno"
+              formControlName="regno"
+              class="form-control">
+          </div>
+          <br><hr>
+          <h4><b><i>Reviews</i></b></h4><br>
+          <div class="form-group">
+            <label for="breakfast">Breakfast</label>
+            <input
+              type="text"
+              id="breakfast"
+              formControlName="breakfast"
+              class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="lunch">Lunch</label>
+            <input
+              type="text"
+              id="lunch"
+              formControlName="lunch"
+              class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="dinner">Dinner</label>
+            <input
+              type="text"
+              id="dinner"
+              formControlName="dinner"
+              class="form-control">
+          </div>
+    <button type="submit"
+    class="btn btn-success"
+    [disabled]="!reviewForm.valid">Save Reviews</button>
+    <br><br>
+        </form>
+
+    </div>
+  <div *ngIf="today==0">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Breakfast</h2>
+          <ul class="list-unstyled">
+            <li>Poori</li>
+            <li>Potato Masala</li>
+            <li>Tea</li>
+            <li>Channa</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2>Lunch</h2>
+          <ul class="list-unstyled">
+            <li>Rice</li>
+            <li>Chicken curry</li>
+            <li>Pepper Chicken</li>
+            <li>Potato Fry</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h2>Dinner</h2>
+          <ul class="list-unstyled">
+            <li>Variety Rice</li>
+            <li>Potato Fry</li>
+            <li>Badam Milk</li>
+            <li>Gulab Jamun</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr>
+        <form [formGroup]="reviewForm" (ngSubmit)="onSubmit()">
+          <h4><b><i>Student Details</i></b></h4><br>
+          <div class="form-group">
+            <label for="Email">Email ID</label>
+            <input
+              type="email"
+              id="email"
+              formControlName="email"
+              class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="regno">Reg No</label>
+            <input
+              type="number"
+              id="regno"
+              formControlName="regno"
+              class="form-control">
+          </div>
+          <br><hr>
+          <h4><b><i>Reviews</i></b></h4><br>
+          <div class="form-group">
+            <label for="breakfast">Breakfast</label>
+            <input
+              type="text"
+              id="breakfast"
+              formControlName="breakfast"
+              class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="lunch">Lunch</label>
+            <input
+              type="text"
+              id="lunch"
+              formControlName="lunch"
+              class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="dinner">Dinner</label>
+            <input
+              type="text"
+              id="dinner"
+              formControlName="dinner"
+              class="form-control">
+          </div>
+    <button type="submit"
+    class="btn btn-success"
+    [disabled]="!reviewForm.valid">Save Reviews</button>
+    <br><br>
+        </form>
+
+    </div>
+

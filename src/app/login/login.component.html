@@ -1,0 +1,16 @@
+<h4>Login to Download Reviews</h4>
+    <form #logForm="ngForm" (ngSubmit)="onDownload(logForm)">
+      <div class="form-group">
+        <label for="pass">Enter password</label>
+        <input
+          type="text"
+          id="pass"
+          class="form-control"
+          ngModel
+          name="pass"
+          required
+        />
+      </div>
+
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
